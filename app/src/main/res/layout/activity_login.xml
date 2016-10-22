@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/AppName"
+        android:text="@string/app_name"/>
+    <EditText
+        style="@style/TextArea"
+        android:id="@+id/username"
+        android:hint="@string/username"
+        android:inputType="text"
+        android:singleLine="true"/>
+    <EditText
+        style="@style/TextArea"
+        android:id="@+id/password"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:singleLine="true" />
+
+    <ImageView
+        android:id="@+id/loginButton"
+        android:onClick="login"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_input_white_48dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/login_button_description"/>
+
+</LinearLayout>

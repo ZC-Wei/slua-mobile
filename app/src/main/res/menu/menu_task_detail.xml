@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ie.deri.slua.SluaMobile.TaskDetail">
+    <item
+        android:id="@+id/action_start"
+        android:orderInCategory="0"
+        android:icon="@drawable/ic_directions_walk_white_48dp"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_capture"
+        android:orderInCategory="1"
+        android:icon="@drawable/ic_camera_alt_white_48dp"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_upload"
+        android:orderInCategory="3"
+        android:icon="@drawable/ic_done_white_48dp"
+        app:showAsAction="always" />
+</menu>
